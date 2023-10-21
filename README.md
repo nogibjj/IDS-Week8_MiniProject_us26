@@ -10,7 +10,7 @@ The repo focuses towards comparing improvements in speed and resource usage for 
 
 ## Code Description
 
-I used criterion for Rust and pytest-benchmark for Python for benchmarking. Rust took 40ms and Python took 767ms to execute the same code. Rust is 19 times faster to Calculate sum of squares for the first 10 million natural numbers as comapred to python.
+I used criterion for Rust and pytest-benchmark for Python for benchmarking. ***Rust took 40ms and Python took 767ms to execute the same code. Rust is **19 times faster** to Calculate sum of squares for the first 10 million natural numbers as comapred to python.***
 
 To execute **rust** file :
 1. Install Rust (curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh)
