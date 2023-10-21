@@ -18,3 +18,4 @@ plotly
 polars
 kaleido
 pyarrow
+pytest-benchmark
