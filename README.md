@@ -22,7 +22,7 @@ To execute **rust** file :
 6. The output :
 
 <p align="center">
-  <img width="650" height="200" src="https://github.com/nogibjj/IDS-Week8_MiniProject_us26/blob/main/Image/rusttime.png" alt="My Image2">
+  <img width="850" src="https://github.com/nogibjj/IDS-Week8_MiniProject_us26/blob/main/Image/rusttime.png" alt="My Image2">
 </p>
 
 To execute **python** file :
