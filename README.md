@@ -8,10 +8,28 @@ The repo focuses towards comparing improvements in speed and resource usage for 
 
 ## Code Description
 
-   The output of the visualization code is  :
+I used criterion for Rust and pytest-benchmark for Python for benchmarking.
+
+To execute **rust** file :
+1. Install Rust (curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh)
+2. Install the rust-analyzer extension 
+3. A good way to create Rust program is to use Cargo to scaffold a new project by typing cargo new. This will create a simple Hello World program along with a default Cargo.toml dependency file. You pass cargo new the folder where you'd like to create the project.
+    - cargo new rust_time
+4. Cargo new creates a project with a main.rs source code file and Cargo.toml Cargo manifest file.
+5. main.rs has the program's entry function main() and prints "Hello, world!" to the console using println!.
+6. The output :
 
 <p align="center">
-  <img width="650" src="https://github.com/nogibjj/IDS-Week3_MiniProject_us26/blob/main/output_graph/visualization.png" alt="My Image1">
+  <img width="650" src="https://github.com/nogibjj/IDS-Week8_MiniProject_us26/blob/main/Image/rusttime.png" alt="My Image2">
+</p>
+
+To execute **python** file :
+1. Install pytest-benchmark
+2. run the command pytest python.py
+3. The output : 
+
+<p align="center">
+  <img width="650" src="https://github.com/nogibjj/IDS-Week8_MiniProject_us26/blob/main/Image/pythontime.png" alt="My Image2">
 </p>
 
 ### Action include the general CI/CD process in yml file, which automatically generate the graph and markdown
