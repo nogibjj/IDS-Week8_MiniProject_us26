@@ -34,11 +34,6 @@ To execute **python** file :
   <img width="650" src="https://github.com/nogibjj/IDS-Week8_MiniProject_us26/blob/main/Image/pythontime.png" alt="My Image2">
 </p>
 
-### Action include the general CI/CD process in yml file, which automatically generate the graph and markdown
-
-<p align="center">
-  <img width="650" src="https://github.com/nogibjj/IDS-Week3_MiniProject_us26/blob/main/Image/yml_actions.png" alt="My Image2">
-</p>
 
 ## CI/CD Automation files
 
