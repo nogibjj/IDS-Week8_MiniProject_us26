@@ -1,14 +1,10 @@
-use criterion::{black_box, criterion_group, criterion_main, Criterion};
+use std::time::Instant;
 
-fn sum_of_squares(n: u64) -> u64 {
-    (1..=n).map(|x| x * x).sum()
+fn main() {
+    let start = Instant::now();
+    let n: u128 = 10_000_000;
+    let sum_of_squares: u128 = (n * (n + 1) * (2 * n + 1)) / 6;
+    let duration = start.elapsed();
+    println!("Sum of squares: {}", sum_of_squares);
+    println!("Time taken: {} nanoseconds", duration.as_nanos());
 }
-
-fn criterion_benchmark(c: &mut Criterion) {
-    c.bench_function("Rust Sum of Squares", |b| {
-        b.iter(|| sum_of_squares(black_box(10_000_000)))
-    });
-}
-
-criterion_group!(benches, criterion_benchmark);
-criterion_main!(benches);
